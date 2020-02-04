@@ -7,7 +7,8 @@ function teekaikki() {
     muuttuja.onclick = function(){
         document.getElementById("moikka").hidden=true;
         console.log("Painettu")
-        }
+        console.log("samuli")
+    }
 }
 teekaikki();
 
