@@ -6,12 +6,12 @@ function teekaikki() {
     
     muuttuja.onclick = function(){
         document.getElementById("moikka").hidden=true;
-        console.log("Painettu")
+        console.log("Painettu" + muuttuja)
         
     }
 }
 teekaikki();
-console.log("samuli")
+
 function halytys() {
     var haly = document.createElement("button")
     haly.innerHTML = "Nappula";
