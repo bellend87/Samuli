@@ -6,7 +6,7 @@ function teekaikki() {
     
     muuttuja.onclick = function(){
         document.getElementById("moikka").hidden=true;
-        console.log("Painettu" + muuttuja)
+        console.log("Painettu perkeleesti")
         
     }
 }
